@@ -25,5 +25,3 @@ return a * b;
 ```
 [Link to my project](https://github.com/AnnaNaboka/rsschool-cv)
 
-
-
