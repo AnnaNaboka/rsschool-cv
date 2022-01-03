@@ -1,0 +1,139 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Console", monospace;
+    scroll-behavior: smooth;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: auto;
+}
+
+a {
+    text-decoration: none;
+  }
+  
+  p,
+  li {
+    font-size: 18px;
+  }
+
+.wrapper {
+  position: relative;
+    width:960px;
+    margin:auto;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+ }
+
+  header {
+    display: flex;
+    user-select: none;
+  }
+  .name h1 {
+    font-family: "Tahoma", sans-serif;
+    color: rgb(146, 1, 146);
+    font-size: 60px;
+  }
+  .name h2 {
+    color:rgb(35, 3, 39);
+  }
+  h3 {
+    color: rgb(146, 1, 146);
+  }
+  
+  .profile-photo {
+    width: 300px;
+  }
+
+  .nav {
+    top: 0;
+    left: 0;
+    position: sticky;
+    width: 100%;
+    padding: 15px 60px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(35, 3, 39);
+    z-index: 2;
+    user-select: none;
+    color: white;
+  }
+  
+  .nav > a {
+    padding: 5px 10px;
+    margin: 0 10px;
+    white-space: nowrap;
+  }
+
+  .nav-item {
+    color: yellow;
+  }
+  
+  .name {
+    flex-grow: 1;
+    align-self: center;
+    text-align: center;
+  }
+
+.about-me {
+  background-color: yellow;
+}
+.section-list a {
+
+  color: black;
+}
+  section {
+    margin-bottom: 30px;
+  }
+#code-example {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+  pre {
+      background: rgb(35, 3, 39);
+      color: rgb(255, 218, 72);
+  }
+
+  .eng-lvl {
+    font-size: 18px;
+  }
+footer div{
+
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  flex-direction: center;
+  justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(35, 3, 39);
+    color: rgb(255, 218, 72);
+  }
+
+  .footer-container>* {
+    flex: 1 1 160px;
+  }
+
+  .footer-year{
+    color: rgb(255, 218, 72);
+    font-size: 80px;
+  }
+  .footer-github {
+    color: rgb(255, 218, 72);
+    font-size: 40px;
+  }
+  .footer-rsschool{
+    color: rgb(255, 218, 72);
+ 
+}
+.footer-rsschool img {
+  padding: 5px;
+  width: 300px;
+}
